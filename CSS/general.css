@@ -89,3 +89,15 @@ body {
   font-weight: 600;
   line-height: 1.2;
 }
+
+
+.header-secondary--bigger {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.header-secondary--bigger--feature {
+  margin-top: 13rem;
+}
