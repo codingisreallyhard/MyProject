@@ -7,6 +7,22 @@
   background-color: #777;
 }
 
+.logo-text-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #777;
+}
+
+.logo-text {
+  background-color: #777;
+  color: black;
+
+  font-size: 1.8rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+}
+
 .primary-header {
   display: flex;
   justify-content: space-between;
@@ -43,6 +59,10 @@
 /* HERO SECTION */
 /* ************ */
 
+.image-container {
+  position: relative;
+}
+
 .header-hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -52,13 +72,33 @@
 .hero-image {
   width: 75%;
   height: 75%;
-  padding: 3.2rem 3.2rem;
+  /* padding: 3.2rem 3.2rem; */
+  border-radius: 9px;
 }
+
+/* .image-container::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 70%;
+  padding-bottom: 90%;
+  background-color: #fcc419;
+  bottom: 50%;
+  right: 50%;
+  z-index: -1;
+  transform: translate(90%, 50%);
+}
+
+.image-container::after {
+  width: 70%;
+  padding-bottom: 70%;
+  background-color: #fcc419;
+}  */
 
 .container--grid-2cols {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 3.2rem;
+  column-gap: 12.4rem;
   justify-content: center;
   align-items: center;
   max-width: 140rem;
@@ -84,4 +124,46 @@
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+}
+
+.header-link:link,
+.header-link:visited {
+  text-decoration: none;
+  color: #777;
+  padding: 1.6rem 3.2rem;
+  background-color: #fcc419;
+  display: block;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.header-link:hover,
+.header-link:active {
+  background-color: #f59f00;
+  color: black;
+}
+
+.header-link-lm:link,
+.header-link-lm:visited {
+  text-decoration: none;
+  color: #777;
+  padding: 1.6rem 3.2rem;
+  background-color: #777;
+  display: block;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.header-link-lm:hover,
+.header-link-lm:active {
+  background-color: #333;
+  color: #fff;
 }

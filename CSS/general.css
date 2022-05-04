@@ -82,3 +82,10 @@ body {
     margin: 0 auto;
   }
 }
+
+
+.header-secondary {
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
