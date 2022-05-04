@@ -204,3 +204,20 @@
   font-size: 1.4rem;
   text-align: center;
 }
+
+/* ******************** */
+/* FEATURE(HOWITWORKS) SECTION */
+/* ******************** */
+
+.feature-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* ******************** */
+/* TESTIMONARY OR HOWEVER U SPELL THIS SECTION */
+/* ******************** */
+
+.first-step img {
+  width: 20%;
+}
