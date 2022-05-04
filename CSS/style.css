@@ -1,0 +1,87 @@
+/* ************ */
+/* NAV SECTION */
+/* ************ */
+
+.logo {
+  width: 5rem;
+  background-color: #777;
+}
+
+.primary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #777;
+}
+
+.nav-bar-primary {
+}
+
+.main-nav {
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4.8rem;
+  list-style: none;
+  padding: 0 6.4rem;
+  background-color: #777;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff3bf;
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: inline-block;
+  background-color: #777;
+}
+
+/* ************ */
+/* HERO SECTION */
+/* ************ */
+
+.header-hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 9.4rem 3.2rem;
+}
+
+.hero-image {
+  width: 75%;
+  height: 75%;
+  padding: 3.2rem 3.2rem;
+}
+
+.container--grid-2cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 140rem;
+}
+
+.primary-head {
+  font-size: 5.2rem;
+  color: #fff;
+  font-weight: 600;
+  /* margin-bottom: 2.4rem; */
+  line-height: 1.2;
+  padding: 3.2rem;
+}
+
+.hero-description {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.2;
+  color: #fff3bf;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
