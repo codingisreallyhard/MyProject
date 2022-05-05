@@ -433,16 +433,24 @@
   flex-direction: column;
   text-align: center;
   gap: 1.8rem;
+  margin-top: 15rem;
 }
 
 .client-text {
   font-size: 2.4rem;
   color: #fff;
+  margin-top: 6.4rem;
+  margin-bottom: 6.4rem;
 }
 
 .star-icon {
   width: 2.4rem;
   height: 2.4rem;
   color: #fcc419;
-  stroke: #fcc419;
+  /* stroke: #fcc419; */
+}
+
+.client-function {
+  font-size: 1.6rem;
+  color: #777;
 }
