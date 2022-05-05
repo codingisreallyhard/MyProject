@@ -454,3 +454,45 @@
   font-size: 1.6rem;
   color: #777;
 }
+
+/* ************** */
+/* ASIDE FUNCTION */
+/* ************** */
+.section-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 9.4rem;
+  overflow: hidden;
+  margin-top: 12rem;
+}
+
+.aside-img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-container-txt {
+  color: #fff;
+}
+
+.aside-text {
+  background-color: #222;
+  padding: 4rem;
+  font-size: 1.8rem;
+  color: #999;
+}
+
+.aside-tag {
+  background-color: #222;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 11px;
+}
