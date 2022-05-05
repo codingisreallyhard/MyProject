@@ -433,7 +433,9 @@
   flex-direction: column;
   text-align: center;
   gap: 1.8rem;
-  margin-top: 15rem;
+  margin-top: 20rem;
+  position: relative;
+  margin-bottom: 25rem;
 }
 
 .client-text {
@@ -455,6 +457,23 @@
   color: #777;
 }
 
+.testi-icon-back {
+  width: 3.2rem;
+  height: 3.2rem;
+  position: absolute;
+  transform: translate(-250%, 330%);
+  cursor: pointer;
+}
+
+.testi-icon-forward {
+  width: 3.2rem;
+  height: 3.2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(250%, 330%);
+  cursor: pointer;
+}
 /* ************** */
 /* ASIDE FUNCTION */
 /* ************** */
